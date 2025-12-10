@@ -34,7 +34,7 @@ export const Home: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-dark-900 text-white py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-dark-900 text-white py-12 lg:py-24 overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-40">
             <img 
                 src="https://picsum.photos/seed/hero9/1920/1080" 
@@ -46,21 +46,21 @@ export const Home: React.FC = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl animate-fade-in-up">
-            <span className="text-brand-500 font-bold tracking-widest uppercase text-sm mb-4 block">New Collection 2024</span>
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
+            <span className="text-brand-500 font-bold tracking-widest uppercase text-sm mb-3 block">New Collection 2024</span>
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-5">
               Walk The Talk. <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-orange-400">
                 Walkin Direct.
               </span>
             </h1>
-            <p className="text-lg text-gray-300 mb-8 max-w-lg leading-relaxed">
+            <p className="text-base lg:text-lg text-gray-300 mb-6 max-w-lg leading-relaxed">
               Discover the latest drops in premium footwear. From high-performance sport gears to urban streetwear icons.
             </p>
             <button 
                 onClick={() => {
                     document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-brand-600 hover:bg-brand-500 text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 flex items-center inline-flex group"
+                className="bg-brand-600 hover:bg-brand-500 text-white px-6 py-3 rounded-full font-bold text-lg transition-all transform hover:scale-105 flex items-center inline-flex group"
             >
               Shop Now
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
